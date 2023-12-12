@@ -1,8 +1,8 @@
 # Home.LLC-Assignment
 
-# Objective:
+### Objective:
 Find publicly available data for key factors that influence US home prices nationally. Then, build a data science model that explains how these factors impacted home prices over the last 20 years.
-# Key factors that influence US home prices:
+### Key factors that influence US home prices:
 * Construction prices
 * Per capita GDP
 * Unemployement rate
@@ -44,7 +44,7 @@ Total households: https://fred.stlouisfed.org/series/TTLHH  <br>
 
 Percentage urban population: https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?end=2021&locations=US&start=2001  <br>
 
-# Articles Preferred
+### Articles Preferred
 https://www.investopedia.com/articles/mortgages-real-estate/10/understanding-case-shiller-index.asp  <br>
 
 https://www.forbes.com/siteS/forbesbizcouncil/2021/10/25/us-housing-supply-obstacles-and-opportunities/?sh=49dfdc1740dc  <br>
@@ -53,7 +53,7 @@ https://www.economicshelp.org/blog/377/housing/factors-that-affect-the-housing-m
 
 https://www.jstor.org/stable/29783816  <br>
 
-# Research paper reffered
+### Research paper reffered
 https://www.atlantis-press.com/article/25841966.pdf
 
 

@@ -1,0 +1,30 @@
+Objective - Using publically available data for the national factors that impact supply and demand of homes in US, build a model to study the effect of these variables on home prices.
+
+Approach - The following variables are chosen for the study-
+	•	Construction prices
+	•	Per capita GDP
+	•	Unemployement rate
+	•	Working Population
+	•	Urban population
+	•	Age - Percentage of population above 65
+	•	Number of households
+	•	Households subsidies
+	•	Interest rates
+	•	Number of new houses supplied
+	•	Median household income
+	•	CPI
+
+As a proxy to the home prices, S&P CASE-SHILLER Index is used.
+Most of the data is downloaded from [https://fred.stlouisfed.org/].
+
+Data for all the variables is downloaded, preprocessed and combined in R Studio with various R commands to create a dataset. Data for different variables had different frequencies. So, to combine the data, necessary interpolations are made.
+
+1. Reading the data into a Dataframe. 
+
+2. Merging all dataframes into one final dataframe using merge() function.
+
+3. The "Per_Capita_GDP" , “Subsidy”, “CPI”, “Num_houses” and other columns has missing values because the data was quarterly. The missing values in the other columns is due to unavailability of fresh data. We have filled zeros for those where data is yet to come for a whole year as of now. We have first filled the missing values in all the columns using linear interpolation.
+
+4. After data is preprocessed, it is saved as “Final_Dataset_Prepared.csv”.
+
+
